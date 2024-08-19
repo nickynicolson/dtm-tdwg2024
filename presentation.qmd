@@ -1,5 +1,5 @@
 ---
-title: "Deconstructing the monograph"
+title: "Deconstructing the monograph: building multi-modal datasets for machine learning"
 date: 2024-09-01
 author: Eren Karabey, Kate Gill, Eve J Lucas, Nicky Nicolson 
 affiliation: RBG Kew
