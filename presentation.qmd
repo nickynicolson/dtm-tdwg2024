@@ -1,0 +1,50 @@
+---
+title: "Deconstructing the monograph"
+date: 2024-09-01
+author: Eren Karabey, Kate Gill, Eve J Lucas, Nicky Nicolson 
+affiliation: RBG Kew
+format: 
+  pptx:
+    reference-doc: kew-template/ref-template.pptx
+
+---
+
+# Monographs
+
+- "Gold-standard" taxonomic outputs, collate richly interlinked data
+- Evidenced through citation to persistent specimen resources
+
+---
+
+# Other advances
+
+## Collections digitisation
+
+- Specimen metadata records & images available online for linking & reuse
+
+## Artificial intelligence (AI) & machine learning (ML) advances
+
+- Accurate, accessible, expert-curated data is crucial for the development of AI/ML models
+
+---
+
+# Deconstructing the monograph
+
+"Deconstructing the monograph" into a set of multi-modal datasets which interlink:
+
+i. species descriptions (enumerating traits) 
+i. specimen images used as reference for the species (as listed in the material examined section)
+i. scientific illustrations which depict diagnostic features (which are linked to the specimen used as the reference for the illustration)
+
+
+---
+
+# Pipeline
+
+We will describe work on a pipeline process to automate this deconstruction and to populate a machine learning platform with citable datasets to enable different kinds of reuse. We will discuss the potential for the wider application of this technique to a range of different monographic sources.
+
+---
+
+# Links & contact details
+
+- Find us on github at [github.com/KewBridge/specimens2illustrations](https://github.com/KewBridge/specimens2illustrations)

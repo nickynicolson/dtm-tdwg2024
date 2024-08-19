@@ -1,92 +1,48 @@
 ---
-title: "Redaction of collection findspots on mass digitised herbarium specimen images: a text classification extension to the Voucher Vision transcription toolkit"
+title: "Deconstructing the monograph"
+date: 2024-09-01
+author:
+  - name: Eren Karabey
+    id: ek
+    email: e.karabey@kew.org
+    affiliation: 
+      - name: RBG Kew
+        city: Richmond
+        state: UK
+        url: www.kew.org
+  - name: Kate Gill
+    id: kg
+    orcid: 0000-0003-2254-7210
+    email: k.gill@kew.org
+    affiliation: 
+      - name: RBG Kew
+        city: Richmond
+        state: UK
+        url: www.kew.org
+  - name: Eve J Lucas
+    id: el
+    orcid: 0000-0002-7603-435X
+    email: e.lucas@kew.org
+    affiliation: 
+      - name: RBG Kew
+        city: Richmond
+        state: UK
+        url: www.kew.org
+  - name: Nicky Nicolson
+    id: nn
+    orcid: 0000-0003-3700-4884
+    email: n.nicolson@kew.org
+    affiliation: 
+      - name: RBG Kew
+        city: Richmond
+        state: UK
+        url: www.kew.org
 format:
-  poster-typst: 
-    size: "23x33"
-    poster-authors: "K. Lindsay¹, W. Weaver², K. Gill¹, N. Nicolson¹"
-    departments: "1: RBG Kew, 2: University of Michigan"
-    institution-logo: "./images/kew-logo.png"
-    univ-logo: "./images/kew-logo.png"
-    univ-logo-scale: "90"
-    univ-logo-column-size: "5"
-    title-column-size: "15"
-    num-columns: 2
-    title-font-size: "48"
-    footer-text: "RBG Kew internship programme"
-    footer-url: "www.github.com/vvatk"
-    footer-emails: "n.nicolson@kew.org"
-    footer-color: "ffdd00"
-    keywords: ["Mass digitisation", "Sensitive species", "Location redaction"]
+  pptx:
+    reference-doc: kew-template/powerpoint.pptx
 ---
 
-# Lorem Ipsum Dolor
+Monographs are gold-standard taxonomic outputs, which collate many different kinds of richly interlinked data, evidenced through citation to persistent specimen resources. Advances in collections digitisation and data mobilisation mean that many of these specimen metadata records and images are now available online for linking and reuse. Now that we have this rich - but distributed - set of data, we are interested in the applying machine learning and computer vision techniques to help with species identification.  Accurate, accessible, expert-curated data is crucial for the development of machine learning models. Traditionally monographs have been aimed at the botanical researcher, but the information contained within these publications represents a valuable resource for machine learning researchers. By gathering openly accessible data, it is possible to deconstruct the monograph to a set of multi-modal datasets which interlink (i) species descriptions (enumerating traits) with (ii) specimen images used as reference for the species (as listed in the material examined section) and (iii) scientific illustrations which depict diagnostic features (which are linked to the specimen used as the reference for the illustration). We will describe work on a pipeline process to automate this deconstruction and to populate a machine learning platform with citable datasets to enable different kinds of reuse. We will discuss the potential for the wider application of this technique to a range of different monographic sources.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At etiam Athenis, ut e patre audiebam facete et urbane Stoicos irridente, statua est in quo a nobis philosophia defensa et collaudata est, cum id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, om- nis dolor repellendus. Temporibus autem quibusdam et.
+---
 
-![Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.](./images/kew-logo.png){width="50%"}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non pos- sit. At.
-
-# Lorem ipsum
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri.
-
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut.
-
-| Lorem ipsum dolor sit. | Lorem ipsum. | Lorem ipsum. |
-|------------------------|--------------|--------------|
-| Lorem ipsum dolor.     | Lorem ipsum. | $\alpha$     |
-| Lorem ipsum.           | Lorem ipsum. | $\beta$      |
-| Lorem.                 | Lorem.       | $\gamma$     |
-| Lorem ipsum dolor.     | Lorem.       | $\theta$     |
-
-: Lorem ipsum dolor sit amet {#tbl-1}
-
-Lorem @tbl-1 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At etiam Athenis, ut e patre audiebam facete et urbane Stoicos irridente, statua est in quo a nobis philosophia defensa et.
-
-## Lorem ipsum dolor sit amet
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At etiam Athenis, ut e patre.
-
-![Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.](./images/kew-logo.png){width="100%"}
-
-# Lorem ipsum dolor.
-
-::: {.block fill="luma(230)" inset="8pt" radius="4pt"}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplifi- carique non possit. At etiam Athenis, ut e patre audiebam facete et urbane Stoicos irridente, statua est in quo a nobis philosophia defensa et.
-
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-
-:::
-
-## Lorem ipsum etiam
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. 
-
-## Lorem ipsum possimus
-
-Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At etiam Athenis, ut e patre audiebam facete et urbane Stoicos irridente, statua est in quo a nobis philosophia defensa et collaudata est, cum id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, om- nis dolor repellendus. Temporibus autem quibusdam et.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. 
-
-![Temperature and ozone level](images/kew-logo.png)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, cum corpore dolemus, fieri tamen permagna accessio potest, si aliquod aeternum et infinitum impendere malum nobis opinemur. Quod idem licet transferre in voluptatem, ut postea variari voluptas distinguique possit, augeri amplificarique non possit. At etiam Athenis, ut e patre audiebam facete et urbane Stoicos irridente, statua est in quo a nobis philosophia defensa et collaudata est, cum id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, om- nis dolor repellendus. Temporibus autem quibusdam et.
-
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-  - Lorem ipsum dolor sit amet.
-  -  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed. 
-  - Lorem ipsum dolor sit amet, consectetur adipiscing.
-
-$$
-\sum_(k=1)^n k = \frac{(n(n+1))}{2} = \frac{(n^2 + n)}{2}
-$$
