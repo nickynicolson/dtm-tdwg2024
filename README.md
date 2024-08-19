@@ -9,3 +9,9 @@ Monographs are gold-standard taxonomic outputs, which collate many different kin
 ## Constraints
 
 - Duration:5 minutes
+
+## Compilation
+
+Content is defined in markdown in `presentation.qmd`
+
+A github action uses [quarto](https://quarto.org) to compile this to a powerpoint slidedeck, which is then posted to github pages at: https://nickynicolson.github.io/dtm-tdwg2024/presentation.pptx
