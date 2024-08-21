@@ -1,6 +1,6 @@
 # Deconstructing the monograph
 
-Lightning talk covering Eren Karabey's work on [KewBridge/specimens2illustrations](https://github.com/KewBridge/specimens2illustrations) for the *LTNG02 Diversity and Commonalities of AI Applications to Biodiversity Issues and Data* session at TDWG 2024
+Lightning talk covering [Eren Karabey](https://github.com/erenkarabey)'s work on [KewBridge/specimens2illustrations](https://github.com/KewBridge/specimens2illustrations) for the *LTNG02 Diversity and Commonalities of AI Applications to Biodiversity Issues and Data* session at TDWG 2024
 
 ## Abstract
 
